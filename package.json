@@ -1,0 +1,35 @@
+{
+  "name": "curso-asincronismo",
+  "version": "1.0.0",
+  "description": "Curso de asincronismo de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/callbacks/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuFeSil/curso-asincronismo.git"
+  },
+  "author": "Luis F. Silgado <lfsilgado@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuFeSil/curso-asincronismo/issues"
+  },
+  "homepage": "https://github.com/LuFeSil/curso-asincronismo#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "typescript": "^4.7.4"
+  }
+}
